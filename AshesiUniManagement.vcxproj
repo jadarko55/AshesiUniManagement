@@ -81,7 +81,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
-      <SubSystem>Windows(/SUBSYTEM:WINDOWS)</SubSystem>
+      <SubSystem>Windows (/SUBSYTEM:WINDOWS)</SubSystem>
       <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
