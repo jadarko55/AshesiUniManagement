@@ -57,7 +57,7 @@ namespace AshesiUniManagement {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-		System::ComponentModel::Container^ components;
+		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -218,28 +218,28 @@ namespace AshesiUniManagement {
 
 		}
 #pragma endregion
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void backgroundWorker1_DoWork(System::Object^ sender, System::ComponentModel::DoWorkEventArgs^ e) {
-	}
-	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-		StudentManagement^ studentManagement = gcnew StudentManagement();
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void backgroundWorker1_DoWork(System::Object^ sender, System::ComponentModel::DoWorkEventArgs^ e) {
+}
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+	StudentManagement^ studentManagement = gcnew StudentManagement();
 
-		studentManagement->Show();  // Show the form
-	}
-	private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
-	}
-	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void AdminDashboard_Load(System::Object^ sender, System::EventArgs^ e) {
-	}
-	};
+	studentManagement->Show();  // Show the form
+}
+private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void AdminDashboard_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 }

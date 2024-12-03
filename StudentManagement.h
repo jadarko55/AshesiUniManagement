@@ -150,7 +150,7 @@ namespace AshesiUniManagement {
 		}
 #pragma endregion
 	private: System::Void btnDeleteStudent_Click(System::Object^ sender, System::EventArgs^ e) {
-		//DeleteStudent^ deleteStudent = gcnew DeleteStudent();
+		//DeleteStudent^ deleteStudent = gcnew DeleteStudent(); 
 		//deleteStudent->Show();
 	}
 	private: System::Void btnAddStudent_Click(System::Object^ sender, System::EventArgs^ e) {
